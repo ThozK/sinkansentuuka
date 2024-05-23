@@ -1,0 +1,76 @@
+@media (min-width: 750px) {
+    .nijuusen {
+        width: 1100px;
+    }
+}
+
+#map {
+    height: 600px;
+    width: 95%;
+    max-width: 750px;
+}
+
+.main {
+    background-color: #ffffff;
+}
+
+body {
+    width: 100%;
+    font-family: "Kosugi Maru", sans-serif;
+    display: flex;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(196, 211, 225);
+}
+
+.title {
+    font-weight: 400;
+    font-style: normal;
+    font-size: large;
+    text-align: center;
+}
+
+.thin {
+    font-size: normal;
+    color: #505050;
+    width: 95%;
+}
+
+.parent {
+    display: flex;
+    justify-content: center;
+}
+
+.foottext {
+background-color: #f9ffdc;
+}
+
+.nijuusen {
+    border-top: 8px solid rgba(188, 106, 90, 0.535);
+    height: 2px;
+    background-color: #ffffff;
+    border-bottom: 4px solid rgba(0, 4, 255, 0.51);
+}
+
+.src {
+    text-align: right;
+}
+
+table {
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "Kosugi Maru", sans-serif;
+}
+
+table,
+th,
+td {
+    border: 1px solid black;
+}
+
+th,
+td {
+    padding: 3px;
+    text-align: center;
+}

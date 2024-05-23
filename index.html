@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>北陸新幹線 通過時刻表map 敦賀駅～金沢駅</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="./style.css" />
+
+</head>
+
+<body>
+    <div class="main">
+        <br>
+        <div class="title">北陸新幹線<br><br><span style="font-size:40px">通過時刻表マップ</span><br><br>（敦賀駅～金沢駅版）</div>
+        <br>
+        <div class="nijuusen"></div>
+        <br>
+        <div class="parent">
+            <div class="thin">
+                地図上のポイント&#x1f6a9;をクリックすると、通過時間&#x23f0;が表示されます&#x1f60e;
+                <br>北陸新幹線を見に行こう&#x1f4f8;&#x1f685;&#x1f685;&#x1f685; ㊗福井県内開業&#x1f389;&#x1f389;
+            </div>
+            <br>
+        </div>
+
+        <br>
+        <div class="parent">
+            <div id="map"></div>
+        </div>
+        <br>
+        <div class="nijuusen"></div>
+
+        <div class="parent">
+            <div class="thin">
+                <br>
+                ・おおよその通過時間の把握にご利用ください。<br>
+                ・2024年6月30日までの時刻表を参考に作成しています。<br>
+                ・通過時間の算出は、次の仮定から計算しています。<br>
+                　　　①列車は等速で移動<br>
+                　　　②駅停車時間は1分間<br>
+
+            </div>
+
+        </div>
+        <br><br>
+        <div class="src"><a href="https://github.com/ThozK">Github @Thoz</a></div>
+        <br>
+    
+
+
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="tuukajikokuhyou.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap');
+    </style>
+</body>
+
+</html>
