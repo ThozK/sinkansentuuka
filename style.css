@@ -6,7 +6,7 @@
 
 #map {
     height: 600px;
-    width: 95%;
+    width: 85%;
     max-width: 750px;
 }
 
@@ -35,6 +35,9 @@ body {
     font-size: normal;
     color: #505050;
     width: 95%;
+    display: flex;
+    justify-content: center;
+    line-height: 150%
 }
 
 .parent {

@@ -46,7 +46,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
             const popupContent = `
              <table>
-              <tr><th>金沢行（上り）</th><th></th><th>敦賀行（下り）</th></tr>
+              <tr><th>金沢・東京方面</th><th></th><th>敦賀方面</th></tr>
                ${[...Array(18).keys()].map(hour => createTableRow(hour + 6, hoursNobori[hour], hoursKudari[hour])).join('')}
              </table>
              <span style="font-size:small">*のマークは、臨時列車や土日運行列車<span>
