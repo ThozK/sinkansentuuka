@@ -13,7 +13,9 @@ https://thozk.github.io/sinkansentuuka/
 
 見学のおともにお使いいただければ幸いです。
 
-![composite_qrcode (28)](https://github.com/ThozK/sinkansentuuka/assets/120262808/7f5b2fb4-22ca-40a4-94fd-aa1783034e57)
+![composite_qrcode (30)](https://github.com/ThozK/sinkansentuuka/assets/120262808/24ca12dc-3485-40c8-9290-38a0fb99e1a5)
+
+
 
 
 CC4.0 Thozk
